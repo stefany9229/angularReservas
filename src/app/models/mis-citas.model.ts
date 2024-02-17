@@ -7,4 +7,5 @@ export interface Cita {
     status: String;
     finishTime: string;
     createdAt: string;
+    newStatus?: string;
   }

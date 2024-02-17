@@ -1,8 +1,6 @@
 /* Estilo general de la tarjeta */
 .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
     margin: 20px 0;
     overflow: hidden;
 }
@@ -15,14 +13,14 @@
 
 /* Estilo del título de la tarjeta */
 .card-title {
-    color: #333;
+    
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 /* Estilo del texto de la tarjeta */
 .card-text {
-    color: #666;
+    
     font-size: 16px;
     margin-bottom: 10px;
 }

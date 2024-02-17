@@ -45,11 +45,6 @@ export class HomeAuthComponent {
     
   }
 
-  logout() {
-    localStorage.removeItem('user');
-    localStorage.removeItem('token') // Elimina el usuario del localStorage
-    this.router.navigate(['./']); // Redirige al usuario a la ruta raíz
-  }
 
 
 

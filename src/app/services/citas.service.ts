@@ -8,10 +8,22 @@ import { Observable } from 'rxjs';
 })
 export class CitasService {
 
+  private baseUrl = 'http://localhost:8080/api/v1/appointment';
+
   constructor(private http: HttpClient) { }
 
   public getCitas(): Observable<Cita[]> {
     return this.http.get<Cita[]>('http://localhost:8080/api/v1/appointment/byUser')
 
-}
+  }
+
+  deleteAppointment(id: number): Observable<any> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete(url, { responseType: 'text' });
+  }
+
+  public getCitasProfessional(): Observable<Cita[]> {
+    return this.http.get<Cita[]>('http://localhost:8080/api/v1/appointment/byEmployee')
+
+  }
 }

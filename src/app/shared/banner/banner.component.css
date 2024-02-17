@@ -2,30 +2,43 @@
 
 .banner {
     display: flex;
-    /*justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    /*background-color: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 10px;
     width: 100%;
     height: 100%;*/
+     flex-grow: 1;
 }
 
 .logo {
     
-    width: 150px;
-    height: 50px;
+    width: 300px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    /*flex-grow: 1;*/
+    margin-left: 5px;
+  
 }
 
 .company-name {
-    flex-grow: 1;
+   /* flex-grow: 1;*/
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+
+.user {
+    width: 50%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 

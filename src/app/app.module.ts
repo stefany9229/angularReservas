@@ -7,6 +7,7 @@ import { HomeModule } from './modules/home/home.module';
 import { AuthModule } from './modules/auth/auth.module';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AuthInterceptorInterceptor } from './core/interceptors/auth-interceptor.interceptor';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AuthInterceptorInterceptor } from './core/interceptors/auth-interceptor
     AppRoutingModule,
     HomeModule,
     AuthModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
 
   ],
   providers: [{
