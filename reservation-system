@@ -1,0 +1,25 @@
+# Descripción de la Aplicación de Agendamiento de Citas Psicológicas
+
+## ¿Qué es y cómo funciona?
+
+Nuestra aplicación es una plataforma diseñada para facilitar el agendamiento de citas psicológicas. Permite a los usuarios buscar y reservar citas con profesionales de la salud mental de manera fácil y conveniente. La aplicación conecta a pacientes con terapeutas basándose en sus necesidades específicas, disponibilidad de tiempo y preferencias de localización.
+
+## Funcionalidades Actuales
+
+Hasta el momento, nuestra aplicación ofrece las siguientes funcionalidades:
+
+- **Búsqueda de Terapeutas:** Los usuarios pueden buscar terapeutas por especialidad, ubicación y disponibilidad de tiempo.
+
+- **Gestión de Citas:** Los usuarios pueden ver, modificar o cancelar sus citas programadas.
+
+## Funcionalidades Planeadas
+
+Estamos trabajando en la incorporación de las siguientes funcionalidades:
+
+- **asignacion de citas:**
+- **eliminacion de citas:** 
+-- **Reservación de Citas:** Una vez que encuentran un terapeuta adecuado, pueden reservar una cita directamente desde la aplicación.
+
+## Tema Favorito del Último Sprint
+
+Uno de los temas que más me gustó trabajar durante el último sprint fue la implementación de la funcionalidad de búsqueda de terapeutas. Este módulo no solo implicó desafíos técnicos, como la optimización de las consultas a la base de datos, sino que también nos permitió reflexionar sobre cómo facilitar la mejor coincidencia entre terapeutas y pacientes, considerando aspectos como la especialidad del terapeuta, su enfoque terapéutico y la compatibilidad con las necesidades del paciente. Fue gratificante ver cómo nuestra solución puede marcar una diferencia en facilitar el acceso a la atención psicológica.
