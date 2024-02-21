@@ -26,4 +26,9 @@ export class CitasService {
     return this.http.get<Cita[]>('http://localhost:8080/api/v1/appointment/byEmployee')
 
   }
+
+ updateAppointmentStatus(appointmentId: number, status: string) {
+    const url = `http://localhost:8080/api/v1/appointment/status/${appointmentId}`;
+    return this.http.put(url, status, { responseType: 'text' });
+  }
 }

@@ -6,7 +6,7 @@ import { VerCitasComponent } from '../citas/ver-citas/ver-citas.component';
 import { HomeNoAuthComponent } from './home-no-auth/home-no-auth.component';
 import { LoginComponent } from '../auth/login/login.component';
 import { RegisterComponent } from '../auth/register/register.component';
-import { CitasProfessionalComponent } from '../citas/citas-professional/citas-professional.component';
+
 
 const routes: Routes = [
   {
@@ -21,10 +21,6 @@ const routes: Routes = [
       {
         path: 'mis-citas',
         component: VerCitasComponent
-      },
-      {
-        path: 'gestionar-citas',
-        component: CitasProfessionalComponent
       }
     ]
     

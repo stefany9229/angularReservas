@@ -1,6 +1,8 @@
 /* Estilo general de la tarjeta */
 .card {
-  
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
     overflow: hidden;
 }
@@ -13,20 +15,20 @@
 
 /* Estilo del título de la tarjeta */
 .card-title {
-    
+    color: #333;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 /* Estilo del texto de la tarjeta */
 .card-text {
-    
+    color: #666;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
 /* Estilo del botón */
-.btn {
+.btn-danger {
     background-color: #dc3545;
     color: white;
     padding: 10px 20px;
@@ -35,7 +37,7 @@
     cursor: pointer;
 }
 
-.btn:hover {
+.btn-danger:hover {
     background-color: #c82333;
 }
 
